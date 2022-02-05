@@ -5,14 +5,13 @@ dependencies:
   repository: file://../../../library/common/2112.0.0
   version: 2112.0.0
 description: Global, Versioned, peer-to-peer filesystem.
-home: https://ipfs.io
-icon: https://ipfs.io/ipfs/QmVk7srrwahXLNmcDYvyUEJptyoxpndnRa57YJ11L4jV26/ipfs.go.png
+home: https://www.ispyconnect.com
+icon: https://ispycontent.azureedge.net/img/ispy2.png
 keywords:
-- storage
-- p2p
-name: ipfs
+- security
+name: agentdvr
 sources:
-- https://github.com/ipfs/go-ipfs
+- https://github.com/ispysoftware/iSpy
 - https://hub.docker.com/r/ipfs/go-ipfs
 upstream_version: 0.8.0-rc1
-version: 1.1.4
+version: 3.7.7.0
