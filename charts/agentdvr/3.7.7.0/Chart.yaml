@@ -4,7 +4,7 @@ dependencies:
 - name: common
   repository: file://../../../library/common/2112.0.0
   version: 2112.0.0
-description: Global, Versioned, peer-to-peer filesystem.
+description: iSpy's Agent DVR, a standalone DVR service to manage IP cameras.
 home: https://www.ispyconnect.com
 icon: https://ispycontent.azureedge.net/img/ispy2.png
 keywords:

@@ -1,12 +1,12 @@
-IPFS
+Agent DVR (iSpy)
 =====
 
-[IPFS](https://ipfs.io) is a global, versioned, peer-to-peer filesystem. It combines good ideas from previous systems such Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built in. You can also mount the world at /ipfs.
+[Agent DVR](https://www.ispyconnect.com) iSpy's Agent DVR, a standalone DVR service to manage IP cameras.
 
 Introduction
 ------------
 
-This chart bootstraps IPFS deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
+This chart bootstraps Agent DVR deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
 
 Configuration
@@ -16,7 +16,7 @@ The following table lists the configurable parameters of the IPFS chart and thei
 
 | Parameter                                        | Description                                                                                                                             | Default                          |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|
-| `image.repository`                               | Image repository                                                                                                                        | `ipfs/go-ipfs`                    |
-| `image.tag`                                      | IPFS image tag. Possible values listed [here](https://hub.docker.com/r/ipfs/go-ipfs/tags).                                              | `v0.8.0-rc1`   |
+| `image.repository`                               | Image repository                                                                                                                        | `doitandbedone/ispyagentdvr`                    |
+| `image.tag`                                      | AgentDVR image tag. Possible values listed [here](https://hub.docker.com/r/doitandbedone/ispyagentdvr/tags).                                              | `latest`   |
 | `image.pullPolicy`                               | Image pull policy                                                                                                                       | `IfNotPresent`                   |
-| `extraArgs`                                      | Additional command line arguments to pass to the IPFS server                                                                            | `[]`                             |
+| `extraArgs`                                      | Additional command line arguments to pass to Agent DVR                                                                            | `[]`                             |

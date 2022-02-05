@@ -1,7 +1,7 @@
 Agent DVR (iSpy)
 =====
 
-[Agent DVR](https://www.ispyconnect.com) iSpy's Agent DVR, a standalone DVR service to manage IP cameras. 
+[Agent DVR](https://www.ispyconnect.com) iSpy's Agent DVR, a standalone DVR service to manage IP cameras.
 
 Introduction
 ------------
