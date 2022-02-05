@@ -12,7 +12,7 @@ This chart bootstraps Agent DVR deployment on a [Kubernetes](http://kubernetes.i
 Configuration
 -------------
 
-The following table lists the configurable parameters of the IPFS chart and their default values.
+The following table lists the configurable parameters of the Agent DVR chart and their default values.
 
 | Parameter                                        | Description                                                                                                                             | Default                          |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|

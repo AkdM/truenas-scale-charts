@@ -1,11 +1,11 @@
 ## Set default image, imageTag, and imagePullPolicy. mode is used to indicate the
 ##
 image:
-  repository: ipfs/go-ipfs
+  repository: doitandbedone/ispyagentdvr
   tag: latest
   pullPolicy: IfNotPresent
 
-## Additional arguments to pass to ipfs binary
+## Additional arguments to pass to agent dvr binary
 extraArgs: []
 
 updateStrategy: Recreate
@@ -23,5 +23,5 @@ appVolumeMounts:
     mountPath: "/export"
   data:
     emptyDir: true
-    mountPath: "/data/ipfs"
+    mountPath: "/data/agent"
 
