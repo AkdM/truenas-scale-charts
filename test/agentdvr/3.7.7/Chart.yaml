@@ -14,4 +14,4 @@ sources:
 - https://github.com/ispysoftware/iSpy
 - https://hub.docker.com/r/ipfs/go-ipfs
 upstream_version: 0.8.0-rc1
-version: 3.7.7.0
+version: 3.7.7
